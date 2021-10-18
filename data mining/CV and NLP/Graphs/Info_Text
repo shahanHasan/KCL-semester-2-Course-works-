@@ -1,0 +1,65 @@
+------------------- Question 1.1 -------------------------------
+
+Second most popular sentiment : ('Negative', 9917)
+
+Date with the greatest number of extremely positive tweets : ('25-03-2020', 545)
+
+Transformed Data : 
+0    @MeNyrbie @Phil_Gahan @Chrisitv https://t.co/i...
+1    advice Talk to your neighbours family to excha...
+2    Coronavirus Australia: Woolworths to give elde...
+3    My food stock is not the only one which is emp...
+4    Me, ready to go at supermarket during the #COV...
+Name: OriginalTweet, dtype: object
+
+------------------- Question 1.2 -------------------------------
+
+Tokenized Data : 
+0    [menyrbie, philgahan, chrisitv, httpstcoifzfan...
+1    [advice, talk, to, your, neighbours, family, t...
+2    [coronavirus, australia, woolworths, to, give,...
+3    [my, food, stock, is, not, the, only, one, whi...
+4    [me, ready, to, go, at, supermarket, during, t...
+Name: OriginalTweet, dtype: object
+
+Total number of all words : 1225792
+Total number of all Distinct words : 81133
+10 Most frequent words in the corpus : [('the', 44809), ('to', 38351), ('and', 23987), ('covid', 21796), ('of', 21516), ('a', 19350), ('in', 19139), ('coronavirus', 18019), ('for', 14047), ('is', 12249)]
+
+Modifying Corpus
+
+Total number of all words in the modified Corpus :  748872
+Total number of all Distinct words in the modified Corpus : 80526
+10 Most frequent words in the modified corpus : [('covid', 21796), ('coronavirus', 18019), ('prices', 7908), ('food', 7052), ('supermarket', 7000), ('store', 6789), ('grocery', 6239), ('people', 5495), ('amp', 4958), ('consumer', 4469)]
+
+------------------- Question 1.3 -------------------------------
+
+Graphs : 
+
+------------------- Question 1.4 -------------------------------
+
+                    precision    recall  f1-score   support
+
+Extremely Negative       0.89      0.02      0.04      1575
+Extremely Positive       0.89      0.02      0.04      2079
+          Negative       0.41      0.44      0.42      2936
+           Neutral       0.86      0.06      0.11      2252
+          Positive       0.35      0.89      0.50      3506
+
+          accuracy                           0.37     12348
+         macro avg       0.68      0.29      0.22     12348
+      weighted avg       0.62      0.37      0.28     12348
+
+
+Error Rate : 0.28364953111943303
+Accuracy Score : 0.716350468880567
+
+Comparison between Actual and Predicted Sentiments
+
+                   actual predicted
+12253            Negative  Negative
+6811   Extremely Positive  Positive
+9449              Neutral  Negative
+16295            Positive  Positive
+10125  Extremely Positive  Positive
+

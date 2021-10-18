@@ -1,0 +1,18 @@
+------------------- Question 2.1 -------------------------------
+
+ Type of array : <class 'numpy.ndarray'>
+ dtype : uint8
+Size of the Image : (1200, 630, 3)
+ Min pixel value : 0  Max pixel value : 255
+
+------------------- Question 2.2 -------------------------------
+
+
+------------------- Question 2.3 -------------------------------
+
+
+------------------- Question 2.4 -------------------------------
+
+Number of angles between lines : 22
+Number of lines : 22
+
